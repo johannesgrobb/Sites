@@ -1,0 +1,5 @@
+install nodeJS
+npm -v (check version)
+create package.json - 1. navigate to project folder 
+                    2. npm init
+install webpack - npm install webpack --save-dev

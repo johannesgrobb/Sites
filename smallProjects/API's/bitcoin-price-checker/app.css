@@ -1,0 +1,28 @@
+span {
+    color: green;
+}
+
+section {
+    background-color: bisque;
+    display: grid;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    align-items: baseline;
+    }
+
+.middle {
+    background-color: blue;
+
+}
+
+.bottom {
+    background-color: blueviolet;
+}
+
+.article {
+    background-color:grey;
+    height: 2fr;
+    align-content: space-around;
+    padding: 10%;
+}
