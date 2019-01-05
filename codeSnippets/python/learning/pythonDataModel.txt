@@ -1,0 +1,33 @@
+Data Model is a description of Python as a framework. It formalizes
+the interfaces of the building blocks of the language itself, such as 
+sequences, iterators, functions, classes, context managers.
+
+The Python interpreter invokes special methods to perform basic object 
+oper‐ations, often triggered by special syntax.  Special method names are 
+always spelled with leading and trailing double underscores, i.e. __getitem__.
+
+Special methods(dunder methods)
+• iteration;
+• collections;
+• attribute access;
+• operator overloading;
+• function and method invocation;
+• object creation and destruction;
+• string representation and formatting;
+• managed contexts (i.e. with blocks);
+
+How special methods are used: See examples.py (Example 1 - FrenchDeck)
+
+1. They  are meant to be called by the Python interpreter, and not by you.
+2.  You don’t write my_object.__len__(). You write len(my_object) and, 
+    if my_object is an instance of a user defined class, then Python calls the
+     __len__ instance method you implemented
+3.  The only special method that is frequently
+    called by user code directly is __init__, to invoke the initializer of the 
+    superclass in your own __init__ implementation.
+    
+Emulating numeric types: See examples.py (Example 2 -  Represent 2-dimensional vectors)
+The built-in complex type can be used to represent 2D vectors
+
+String representation
+
